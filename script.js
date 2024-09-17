@@ -16,3 +16,7 @@ gifSection.appendChild(newText);
     // Far scomparire il pulsante dopo il clic
     this.style.display = "none";
 });
+
+document.getElementById('submitButton').addEventListener('click', function() {
+    window.location.href = 'thankyou.html'; // Redirect to thankyou.html when button is clicked
+});
