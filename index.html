@@ -29,7 +29,7 @@
         <div class="column">
             <h3>contact us</h3>
         <div id="form">
-            <form action="https://formsubmit.co/sara.balestrini.99@gmail.com" method="POST">
+            <form id="myForm">
                 <input type="text" name="name" placeholder="Name" required>
                 <input type="email" name="email" placeholder="Email Address" required>
                 <input type="text" name="message" placeholder="Message" required>
@@ -37,9 +37,17 @@
                     <img src="assets/arrow.png" alt="arrow" id="arrow">
                 </button>
             </form>
+        
+            
         </div>
         </div>
     </section>
     <script src="script.js"></script>
+    <script>
+                document.getElementById('myForm').addEventListener('submit', function(event) {
+                    event.preventDefault(); // Prevents the default form submission
+                    window.location.href = 'thankyou.html'; // Redirects to thankyou.html
+                });
+    </script>
 </body>
 </html>
