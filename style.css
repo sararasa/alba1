@@ -139,6 +139,8 @@ form input {
     font-size: 1em; /* Set font size */
     background-color: transparent; /* Transparent background for input */
     line-height: 1.8;
+    color: #4B4B4B;
+    text-transform: uppercase;
 }
 
 form input:focus {
@@ -153,6 +155,8 @@ form input:focus {
     font-size: 1em; /* Set font size */
     background-color: transparent; /* Transparent background for input */
     line-height: 1.8;
+    color: #4B4B4B;
+    text-transform: uppercase;
 }
 
 input:valid {
