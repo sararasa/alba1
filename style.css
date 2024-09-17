@@ -197,3 +197,31 @@ button[type="submit"] img#arrow {
     height: 20px;
     width: auto;
 }
+
+.thank_you {
+    width: 100vw;
+    height: 100vh;
+}
+
+.text_thanks {
+    margin-top: 30vh;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: 2vh;
+}
+
+.submit {
+    margin-top: 0vh;
+}
+
