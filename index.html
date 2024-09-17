@@ -8,7 +8,7 @@
 </head>
 <body>
     <section class="gif">
-        <div class="gif">
+        <div class="gif-wrapper">
             <img src="assets/01_ANIMATION_WHITE BACKGROUND.gif" alt="Alba" id="gif">
         </div>
         <div class="text">
@@ -29,13 +29,14 @@
         <div class="column">
             <h3>contact us</h3>
 
-            <form action="https://formsubmit.co/sara.balestrini.99@gmail.com" method="POST">
+            <form action="https://formsubmit.co/sara.balestrini.99@gmail.com" method="POST" id="form">
+                <input type="text" name="name" placeholder="Name" required>
                 <input type="email" name="email" placeholder="Email Adress" required>
-                <input type="text" name="name" required>
-                <input type="email" name="email" required>
-                <button type="submit">Send</button>
+                <input type="text" name="message" placeholder="Message" required>
+                <input type="image" src="assets/arrow.png" alt="Submit">
            </form>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
