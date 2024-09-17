@@ -27,16 +27,16 @@ html {
 #gif {
     width: 110%;
     position: absolute;
-    top: -20vh;
+    top: -50vh;
     z-index: 0;
     left: 50%; 
-    top: 30%;
+    top: 37%;
     transform: translate(-50%,-50%);
 }
 
 .text {
     width: 65vw;
-    margin-top: -50vh;
+    margin-top: -48vh;
     margin-left: auto;
     margin-right: auto;
     z-index: 100;
@@ -142,14 +142,17 @@ form input {
 }
 
 form input:focus {
-    outline: none; /* Remove the default outline on focus */
-    margin-bottom: 20px; /* Space between inputs */
+    outline: none;
+    width: 100%; /* Full width */
+    padding: 0; /* Adjust padding for the height */
+    margin-bottom: 40px; /* Space between inputs */
     border: none; /* Remove the default border */
     border-bottom: 1px solid grey; /* Add only the bottom border */
     box-sizing: border-box; /* Ensure padding doesn't affect width */
     border-radius: 0; /* Make the input square (no rounded corners) */
     font-size: 1em; /* Set font size */
     background-color: transparent; /* Transparent background for input */
+    line-height: 1.8;
 }
 
 form input::placeholder {
@@ -175,8 +178,20 @@ form input::placeholder {
     position: relative;
 }
 
-input[type="image"] {
-    border-bottom: 0px solid grey;
+button[type="submit"]{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    float: right;
+    margin-top: 1vh;
+    height: 20px;
+    width: auto;
+}
+
+button[type="submit"] img#arrow {
+    outline: none;
+    background-color: transparent;
+    border: none;
     float: right;
     margin-top: 1vh;
     height: 20px;
